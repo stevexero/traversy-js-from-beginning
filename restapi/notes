@@ -37,3 +37,11 @@ PUT: update a specified resources
 
 DELETE: delete a specified resources
 
+POST PUT and DELETE you're gonna send data along with your request, needs to know post data to add, which post to update, as well as the data you wanna update it with
+
+
+
+CALLBACK FUNCTIONS
+
+a callback is a function that passed in as a parameter to another function and then ran inside the function body
+
