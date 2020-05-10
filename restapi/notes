@@ -1,0 +1,39 @@
+What is an api?
+
+Application Programming Interface, we're mostly focused on web apis
+
+a contract provided by one piece of software to another
+
+usually consists of a structured request and a structured response
+
+
+What is Rest
+
+Representational State Transfer
+
+architectural style for designing networked applications
+
+relies on a stateless, client-server communication protocal, amost always http
+
+made to treat objects on server side as resources that can be created updated and destroyed and read
+
+example of server side object would be blog post, user, usually stored in database
+
+create resources with post request
+
+delete with delete request, so on
+
+api is messenger, rest lets us use http rewquest to format that message
+
+rest api takes in multiple types of requests
+
+http requests
+
+GET: retrieve data from a specified resources
+
+POST: submit data to be processed to a specified resources
+
+PUT: update a specified resources
+
+DELETE: delete a specified resources
+
