@@ -1,0 +1,3 @@
+Async await, a part of the es7 / es2016 standard.  Not sure about all browsers, but implemented in chrome.
+
+if using in production, compile es7 to es5 using webpack and babel
