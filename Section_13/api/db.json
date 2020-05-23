@@ -1,3 +1,14 @@
 {
-  "posts": []
+  "posts": [
+    {
+      "title": "This is pretty cool",
+      "body": "So, I thought",
+      "id": 1
+    },
+    {
+      "title": "This is pretty ",
+      "body": "So, I thought",
+      "id": 2
+    }
+  ]
 }

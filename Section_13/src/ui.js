@@ -8,6 +8,7 @@ class UI {
     this.formState = 'add';
   }
 
+  //   SHow all posts
   showPosts(posts) {
     let output = '';
 
@@ -27,6 +28,7 @@ class UI {
     this.post.innerHTML = output;
   }
 
+  //   Show alert message
   showAlert(message, className) {
     this.clearAlert();
 
@@ -54,6 +56,7 @@ class UI {
     }, 3000);
   }
 
+  //   Clear alert message
   clearAlert() {
     const currentAlert = document.querySelector('.alert');
 
@@ -62,9 +65,17 @@ class UI {
     }
   }
 
+  // Clear all fields
   clearFields() {
     this.titleInput.value = '';
     this.bodyInput.value = '';
+  }
+
+  //   Fill form to edit
+  fillForm(data) {
+    this.titleInput.value = data.title;
+    this.bodyInput.value = data.body;
+    this.idInput.value = data.id;
   }
 }
 
