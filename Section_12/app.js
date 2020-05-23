@@ -99,6 +99,7 @@ const ItemCtrl = (function() {
     getItems: function() {
       return data.items;
     },
+
     addItem: function(name, calories) {
       let ID;
       //   Create ID
@@ -231,6 +232,7 @@ const UICtrl = (function() {
       //   Insert list items
       document.querySelector(UISelectors.itemList).innerHTML = html;
     },
+
     getItemInput: function() {
       return {
         name: document.querySelector(UISelectors.itemNameInput).value,
